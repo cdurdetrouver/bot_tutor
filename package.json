@@ -1,0 +1,31 @@
+{
+  "name": "bot-tutor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start-dev": "ts-node-dev src/index.ts",
+    "start-prod": "node dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.4",
+    "web-streams-polyfill": "^4.0.0"
+  }
+}
